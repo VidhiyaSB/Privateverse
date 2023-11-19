@@ -1,0 +1,90 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bg.png'); /* Replace 'background.jpg' with your background image file path */
+    background-size: cover;
+    color: #006ea1;
+}
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 5%; /* Adjust the width of the logo */
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, textarea {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#postFormContainer textarea {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#userPosts {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Add or modify these styles */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.caption {
+    font-style: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
